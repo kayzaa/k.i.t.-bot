@@ -1,0 +1,40 @@
+{
+  "telegram": {
+    "token": "8234018238:AAGCxlVuLVQEWZqCra9q9IqHCM8f0fULy1U",
+    "chatId": "988209153"
+  },
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "apiKey": "${OPENAI_API_KEY}"
+  },
+  "autonomous": {
+    "enabled": true,
+    "heartbeatIntervalMs": 60000,
+    "autoTrade": false,
+    "maxDailyTrades": 20,
+    "maxAutoTradeRiskPercent": 2,
+    "notifyOnTrade": true,
+    "notifyOnAlert": true,
+    "notifyOnOpportunity": true,
+    "dailyReportTime": "09:00"
+  },
+  "platforms": {
+    "binaryfaster": {
+      "enabled": true
+    },
+    "mt5": {
+      "enabled": true
+    },
+    "binance": {
+      "enabled": true
+    }
+  },
+  "watchlist": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "XAUUSD",
+    "EURUSD",
+    "SOLUSDT"
+  ]
+}
